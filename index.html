@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="icon" href="Imagens/favicon.png.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img class="logoAlura" src="/Imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+    <main>
+      <section class="coluna_1">
+        <textarea class="text_area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+        <div class="informacoes">
+          <h6>Apenas letras minúsculas e sem acento</h6>
+        </div>
+        <div class="botoes">
+          <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+      </section>
+      <section class="coluna_2">
+        <textarea class="mensagem" cols="20" rows="10" placeholder="Nenhuma mensagem encontrada"></textarea>
+        <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+      </section>
+    </main>
+    <footer class="dados_dev">
+      <div class="dados_dev__links">
+        <a href="https://github.com/Aa050280">
+        <img src="/Imagens/icons8-github-48.png">
+        </a>
+        <a href="https://www.linkedin.com/in/andreia-arruda-aa6270196">
+        <img src="/Imagens/icons8-linkedin-48.png">
+        </a>
+        <h3>Desenvolvido por Andreia Arruda</h3>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
