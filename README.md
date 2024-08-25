@@ -19,3 +19,4 @@ Tecnologias utilizadas:<br>
 Autora do projeto:<br>
 Andreia Arruda
 ![Decodificador_demonstracao](https://github.com/user-attachments/assets/4641213f-bb88-47f1-9898-87e90c180913)
+Para acessar online: https://projeto-decodificador-xw2q.vercel.app/ 
